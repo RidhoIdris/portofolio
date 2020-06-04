@@ -106,7 +106,7 @@ export default function Portofolio() {
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2 mt-6 -lg:w-full">
 					<Card image={require('../assets/portofolio/byu.JPG')} title="Redesign App By.u" link="/byu" />
 					<Card image={require('../assets/portofolio/dashboard.JPG')} title="Simple Dashboard" link="/dashboard" />
-					<Card image={require('../assets/portofolio/app3.png')} title="Coming Soon" link="/" />
+					<Card image={require('../assets/portofolio/google.jpg')} title="Clone Google Search" link="/google" />
 				</div>
 				<button className="transition-150 focus:outline-none mt-16 border-main-color border-2 py-2 px-16 hover:bg-main-color hover:text-white text-main-color font-semibold rounded-full"> Load More</button>
 			</div>
