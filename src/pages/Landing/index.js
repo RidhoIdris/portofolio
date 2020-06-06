@@ -25,7 +25,7 @@ export default function Index() {
                             <svg className="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                         </button>
                     </div>
-                    <ul className={`flex relative z-20 ${nav && '-lg:hidden'} -lg:flex-col -lg:w-full -lg:bg-blue-ribbon-500 -lg:text-white lg:items-center -lg:py-2`}>
+                    <ul className={`flex relative z-20 ${nav ? '' : '-lg:hidden'} -lg:flex-col -lg:w-full -lg:bg-blue-ribbon-500 -lg:text-white lg:items-center -lg:py-2`}>
                         <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">home</li>
                         <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">about</li>
                         <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">service</li>

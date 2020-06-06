@@ -7,8 +7,8 @@ export default function Portofolio() {
 		return(
 			<div className="bg-white w-full rounded-lg shadow-lg relative">
 				<div>
-					<img src={image} alt="byu" className="w-full h-64 object-cover rounded-t-lg" />
-					<h1 className="py-6 text-center text-lg font-bold">{title}</h1>
+					<img src={image} alt="byu" className="w-full object-cover rounded-t-lg" />
+					<h1 className="py-6 text-center text-gray-500 text-lg font-semibold">{title}</h1>
 				</div>
 				<div className="transition ease-in duration-200 bg-main-color absolute top-0 w-full w-full h-full opacity-0 hover:opacity-100 rounded-lg flex justify-center items-center">
 				<Link to={link} className="transition-150 border-white border-2 py-1 px-4 hover:bg-white hover:text-main-color text-white font-semibold rounded-full"> View Website</Link>
@@ -103,7 +103,8 @@ export default function Portofolio() {
 			<div className="flex justify-center mb-20 flex-col items-center -md:px-8 px-24">
 				<h1 className="md:text-3xl text-4xl font-bold">My Recent Work</h1>
 				<p className="text-center">Here are a few design projects I've worked on recently. Want to see more? <Link to="/contact" className="cursor-pointer font-semibold text-main-color">Email me.</Link></p>
-				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2 mt-6 -lg:w-full">
+				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6 -lg:w-full">
+					<Card image={require('../assets/portofolio/landing.jpg')} title="Landing Page" link="/landing" />
 					<Card image={require('../assets/portofolio/byu.JPG')} title="Redesign App By.u" link="/byu" />
 					<Card image={require('../assets/portofolio/dashboard.JPG')} title="Simple Dashboard" link="/dashboard" />
 					<Card image={require('../assets/portofolio/google.jpg')} title="Clone Google Search" link="/google" />

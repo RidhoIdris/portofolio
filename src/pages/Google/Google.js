@@ -23,9 +23,9 @@ export default function Google() {
                         <BsSearch style={{left:'15px', top:'16'}} className="absolute text-gray-500" />
                         {state && <BsX onClick={()=>{setstate('');document.getElementById("search").focus()}} style={{right:'15px', top:'16'}} size={18} className="absolute hover:cursor-pointer text-gray-500" />}
                     </div>
-                    <div className="flex mt-6 none px-2 py-2 inline-block">
-                        <button style={{backgroundColor:"#f4f4f4", color:'#676f79'}} className="text-gray-500 px-4 py-2 rounded-md hover:shadow-lg hover:text-gray-700 inline-block ">Penulusuran Google</button>
-                        <button style={{backgroundColor:"#f4f4f4", color:'#676f79'}} className="text-gray-500 px-4 py-2 rounded-md hover:shadow-lg hover:text-gray-700 inline-block ml-4">Saya Lagi Beruntung</button>
+                    <div className="flex mt-6 none px-2 py-2 inline-block -xs:flex-col -xs:space-y-2 xs:space-x-2">
+                        <button style={{backgroundColor:"#f4f4f4", color:'#676f79'}} className="text-gray-500 px-4 py-2 rounded-md hover:shadow-lg hover:text-gray-700 inline-block">Penulusuran Google</button>
+                        <button style={{backgroundColor:"#f4f4f4", color:'#676f79'}} className="text-gray-500 px-4 py-2 rounded-md hover:shadow-lg hover:text-gray-700 inline-block">Saya Lagi Beruntung</button>
                     </div>
                     <div className="text-sm text-gray-600 mt-4">
                         Google Menawarkan: 
@@ -37,13 +37,13 @@ export default function Google() {
             <div style={{backgroundColor:'#f2f2f2'}} className="bg-green-800 text-gray-700 px-8 py-2 flex -md:flex-col justify-between">
                 <div>
                     <span className="hover:underline hover:cursor-pointer ">Periklanan</span>
-                    <span className="hover:underline hover:cursor-pointer ml-8">Bisnis</span>
-                    <span className="hover:underline hover:cursor-pointer ml-8">Tentang</span>
-                    <span className="hover:underline hover:cursor-pointer ml-8">Cara Kerja Penulusuran</span>
+                    <span className="hover:underline hover:cursor-pointer ml-3 xs:ml-8">Bisnis</span>
+                    <span className="hover:underline hover:cursor-pointer ml-3 xs:ml-8">Tentang</span>
+                    <span className="hover:underline hover:cursor-pointer ml-3 xs:ml-8">Cara Kerja Penulusuran</span>
                 </div>
                 <div>
-                    <span className="hover:underline hover:cursor-pointer mr-8">Privasi</span>
-                    <span className="hover:underline hover:cursor-pointer mr-8">Persyaratan</span>
+                    <span className="hover:underline hover:cursor-pointer mr-3 xs:mr-8">Privasi</span>
+                    <span className="hover:underline hover:cursor-pointer mr-3 xs:mr-8">Persyaratan</span>
                     <span className="hover:underline hover:cursor-pointer ">Setelan</span>
                 </div>
             </div>

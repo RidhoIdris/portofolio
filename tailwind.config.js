@@ -21,6 +21,7 @@ module.exports = {
         '-md': {'max': '767px'},  
         '-sm': {'max': '639px'},
         '-xs': {'max': '320px'},
+        'xs': {'min': '321px'},
       },
       colors:{
         'byu' : '#00bdf1',
