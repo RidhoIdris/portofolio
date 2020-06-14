@@ -26,12 +26,12 @@ export default function Index() {
                         </button>
                     </div>
                     <ul className={`flex relative z-20 ${nav ? '' : '-lg:hidden'} -lg:flex-col -lg:w-full -lg:bg-blue-ribbon-500 -lg:text-white lg:items-center -lg:py-2`}>
-                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">home</li>
-                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">about</li>
-                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">service</li>
-                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">pages</li>
-                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">blog</li>
-                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-semibold lg:hover:border-b">contact</li>
+                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-bold lg:hover:border-b">home</li>
+                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-bold lg:hover:border-b">about</li>
+                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-bold lg:hover:border-b">service</li>
+                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-bold lg:hover:border-b">pages</li>
+                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-bold lg:hover:border-b">blog</li>
+                        <li className="uppercase -lg:px-4 -lg:py-1 lg:mr-6 -lg:hover:bg-blue-ribbon-600 cursor-pointer -lg:hover:text-white tracking-widest lg:hover:border-blue-400 hover:font-bold lg:hover:border-b">contact</li>
                     </ul>
                 </div>
             </nav>

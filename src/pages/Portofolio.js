@@ -105,6 +105,7 @@ export default function Portofolio() {
 				<p className="text-center">Here are a few design projects I've worked on recently. Want to see more? <Link to="/contact" className="cursor-pointer font-semibold text-main-color">Email me.</Link></p>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6 -lg:w-full">
 					<Card image={require('../assets/portofolio/landing.jpg')} title="Landing Page" link="/landing" />
+					<Card image={require('../assets/portofolio/landing2.JPG')} title="Landing Page 2" link="/landing2" />
 					<Card image={require('../assets/portofolio/byu.JPG')} title="Redesign App By.u" link="/byu" />
 					<Card image={require('../assets/portofolio/dashboard.JPG')} title="Simple Dashboard" link="/dashboard" />
 					<Card image={require('../assets/portofolio/google.jpg')} title="Clone Google Search" link="/google" />
