@@ -2,6 +2,10 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       boxShadow: {
         red: '0px 4px 14px rgba(255, 0, 0, 0.5)',
       },
@@ -32,6 +36,17 @@ module.exports = {
         'light-blue' : '#232B57',
         'main-color' : '#7510f7',
         'landing1' : '#4f53f9',
+        'royal-blue': {
+          100: '#E9F1FF',
+          200: '#C9DBFE',
+          300: '#A8C6FD',
+          400: '#679BFC',
+          500: '#2670FA',
+          600: '#2265E1',
+          700: '#174396',
+          800: '#113271',
+          900: '#0B224B',
+        },
         'blue-ribbon': {
           100: '#EDEEFE',
           200: '#D3D4FE',

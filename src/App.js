@@ -9,6 +9,8 @@ const Google = lazy(() => import('./pages/Google/Google'));
 const Landing = lazy(() => import('./pages/Landing'));
 const Landing2 = lazy(() => import('./pages/Landing2'));
 const Cashier = lazy(() => import('./pages/Cashier'));
+const Restaurant = lazy(() => import('./pages/Restaurant'));
+const BoxManager = lazy(() => import('./pages/BoxManager'));
 
 export default function App() {
   return (
@@ -22,7 +24,9 @@ export default function App() {
         <Route path="/google" component={Google}/>
         <Route path="/landing" component={Landing}/>
         <Route path="/landing2" component={Landing2}/>
-        <Route path="/Cashier" component={Cashier}/>
+        <Route path="/cashier" component={Cashier}/>
+        <Route path="/restaurant" component={Restaurant}/>
+        <Route path="/boxmanager" component={BoxManager}/>
       </Switch>
     </Suspense>
   </Router>
