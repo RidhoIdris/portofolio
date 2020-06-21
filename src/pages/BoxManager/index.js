@@ -23,9 +23,9 @@ export default function Index() {
                         </button>
                     </div>
                     <ul className={`flex ${nav && '-lg:hidden'} -lg:py-4 -lg:bg-royal-blue-500 -lg:flex-col -lg:w-full lg:space-x-5 lg:items-center justify-center`}>
-                        <li className="text-gray-600 hover:bg-royal-blue-400 -lg:text-white lg:hover:text-gray-500 cursor-pointer lg:hover:underline ">About</li>
-                        <li className="text-gray-600 hover:bg-royal-blue-400 -lg:text-white lg:hover:text-gray-500 cursor-pointer lg:hover:underline ">Features</li>
-                        <li className="text-gray-600 hover:bg-royal-blue-400 -lg:text-white lg:hover:text-gray-500 cursor-pointer lg:hover:underline ">Login</li>
+                        <li className="text-gray-600 -lg:hover:bg-royal-blue-400 -lg:text-white lg:hover:text-gray-500 cursor-pointer lg:hover:underline ">About</li>
+                        <li className="text-gray-600 -lg:hover:bg-royal-blue-400 -lg:text-white lg:hover:text-gray-500 cursor-pointer lg:hover:underline ">Features</li>
+                        <li className="text-gray-600 -lg:hover:bg-royal-blue-400 -lg:text-white lg:hover:text-gray-500 cursor-pointer lg:hover:underline ">Login</li>
                         <li className="-lg:hidden"><button className="focus:outline-none text-white bg-royal-blue-500 hover:bg-royal-blue-600 px-10 py-2 rounded-lg">Daftar</button></li>
                     </ul>
                 </div>
