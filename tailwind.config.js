@@ -98,6 +98,12 @@ module.exports = {
     // 'visited', 
     // 'disabled'
   ],
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animatecss')({
+      classes: ['animate__animated', 'animate__heartBeat','animate__pulse', 'animate__bounceIn','animate__slideInLeft','animate__slideInRight','animate__slideInDown','animate__slideInUp'],
+      settings: {},
+      variants: [],
+    }),
+  ],
 }
 
