@@ -656,6 +656,12 @@ img {
   background-color: rgba(228, 63, 91, var(--bg-opacity));
 }
 
+.bg-drive-500 {
+  --bg-opacity: 1;
+  background-color: #5712A6;
+  background-color: rgba(87, 18, 166, var(--bg-opacity));
+}
+
 .hover\:bg-white:hover {
   --bg-opacity: 1;
   background-color: #fff;
@@ -746,16 +752,24 @@ img {
   background-color: rgba(228, 63, 91, var(--bg-opacity));
 }
 
+.hover\:bg-drive-500:hover {
+  --bg-opacity: 1;
+  background-color: #5712A6;
+  background-color: rgba(87, 18, 166, var(--bg-opacity));
+}
+
+.hover\:bg-drive-600:hover {
+  --bg-opacity: 1;
+  background-color: #4E1095;
+  background-color: rgba(78, 16, 149, var(--bg-opacity));
+}
+
 .bg-center {
   background-position: center;
 }
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.bg-auto {
-  background-size: auto;
 }
 
 .bg-cover {
@@ -808,6 +822,12 @@ img {
   --border-opacity: 1;
   border-color: #D3D4FE;
   border-color: rgba(211, 212, 254, var(--border-opacity));
+}
+
+.border-drive-500 {
+  --border-opacity: 1;
+  border-color: #5712A6;
+  border-color: rgba(87, 18, 166, var(--border-opacity));
 }
 
 .focus\:border-main-color:focus {
@@ -939,6 +959,10 @@ img {
   flex: 1 1 0%;
 }
 
+.float-right {
+  float: right;
+}
+
 .font-poppins {
   font-family: Poppins, sans-serif;
 }
@@ -1035,6 +1059,10 @@ img {
   height: 100%;
 }
 
+.h-50vh {
+  height: 50vh;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1104,6 +1132,11 @@ img {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .my-6 {
@@ -1227,12 +1260,20 @@ img {
   margin-top: 3rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
 
 .mb-16 {
   margin-bottom: 4rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mb-20 {
@@ -1271,6 +1312,14 @@ img {
   margin-right: -5rem;
 }
 
+.-mr-32 {
+  margin-right: -8rem;
+}
+
+.-ml-32 {
+  margin-left: -8rem;
+}
+
 .-mt-40 {
   margin-top: -10rem;
 }
@@ -1279,8 +1328,20 @@ img {
   margin-left: -14rem;
 }
 
+.-mt-64 {
+  margin-top: -16rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.object-center {
+  object-position: center;
 }
 
 .opacity-0 {
@@ -1441,6 +1502,10 @@ img {
   padding-left: 2rem;
 }
 
+.pr-16 {
+  padding-right: 4rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -1455,6 +1520,10 @@ img {
 
 .pr-32 {
   padding-right: 8rem;
+}
+
+.pr-48 {
+  padding-right: 12rem;
 }
 
 .pb-64 {
@@ -1644,6 +1713,24 @@ img {
   color: rgba(79, 83, 249, var(--text-opacity));
 }
 
+.text-drive-400 {
+  --text-opacity: 1;
+  color: #8959C1;
+  color: rgba(137, 89, 193, var(--text-opacity));
+}
+
+.text-drive-500 {
+  --text-opacity: 1;
+  color: #5712A6;
+  color: rgba(87, 18, 166, var(--text-opacity));
+}
+
+.text-drive-600 {
+  --text-opacity: 1;
+  color: #4E1095;
+  color: rgba(78, 16, 149, var(--text-opacity));
+}
+
 .hover\:text-white:hover {
   --text-opacity: 1;
   color: #fff;
@@ -1716,6 +1803,10 @@ img {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .hover\:underline:hover {
@@ -1794,12 +1885,20 @@ img {
   width: 60%;
 }
 
+.w-70p {
+  width: 70%;
+}
+
 .w-80p {
   width: 80%;
 }
 
 .w-90p {
   width: 90%;
+}
+
+.w-100p {
+  width: 100%;
 }
 
 .w-1\/2 {
@@ -1862,12 +1961,22 @@ img {
   gap: 1.5rem;
 }
 
+.col-gap-16 {
+  grid-column-gap: 4rem;
+  -webkit-column-gap: 4rem;
+          column-gap: 4rem;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-5 {
@@ -2385,6 +2494,12 @@ img {
     color: rgba(160, 174, 192, var(--text-opacity));
   }
 
+  .lg\:hover\:text-drive-500:hover {
+    --text-opacity: 1;
+    color: #5712A6;
+    color: rgba(87, 18, 166, var(--text-opacity));
+  }
+
   .lg\:hover\:underline:hover {
     text-decoration: underline;
   }
@@ -2494,6 +2609,12 @@ img {
     background-color: rgba(44, 39, 97, var(--bg-opacity));
   }
 
+  .-lg\:bg-drive-500 {
+    --bg-opacity: 1;
+    background-color: #5712A6;
+    background-color: rgba(87, 18, 166, var(--bg-opacity));
+  }
+
   .-lg\:hover\:bg-royal-blue-400:hover {
     --bg-opacity: 1;
     background-color: #679BFC;
@@ -2510,6 +2631,12 @@ img {
     --bg-opacity: 1;
     background-color: #211D49;
     background-color: rgba(33, 29, 73, var(--bg-opacity));
+  }
+
+  .-lg\:hover\:bg-drive-400:hover {
+    --bg-opacity: 1;
+    background-color: #8959C1;
+    background-color: rgba(137, 89, 193, var(--bg-opacity));
   }
 
   .-lg\:flex {

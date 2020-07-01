@@ -12,6 +12,7 @@ const Cashier = lazy(() => import('./pages/Cashier'));
 const Restaurant = lazy(() => import('./pages/Restaurant'));
 const BoxManager = lazy(() => import('./pages/BoxManager'));
 const Arlomartin = lazy(() => import('./pages/Arlomartin'));
+const Drivein = lazy(() => import('./pages/Drivein'));
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/restaurant" component={Restaurant}/>
         <Route path="/boxmanager" component={BoxManager}/>
         <Route path="/arlomartin" component={Arlomartin}/>
+        <Route path="/drivein" component={Drivein}/>
       </Switch>
     </Suspense>
   </Router>
