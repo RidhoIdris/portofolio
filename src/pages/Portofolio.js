@@ -43,7 +43,7 @@ export default function Portofolio() {
 			{/* Header */}
 			<div className="header flex justify-between container mx-auto py-6 px-6 md:px-0 items-center">
 					<div className="font-bold text-3xl">Ridho Idris</div>
-					<Link to="/contact" className="transition-150 border-main-color border-2 py-1 px-4 hover:bg-main-color hover:text-white font-semibold rounded-full"> Say Hello</Link>
+					<a href="https://www.fiverr.com/ridhoidris" rel="noopener noreferrer" target="_BLANK" className="transition-150 border-main-color border-2 py-1 px-4 hover:bg-main-color hover:text-white font-semibold rounded-full"> Say Hello</a>
 			</div>
 			{/* Header */}
 
@@ -123,7 +123,7 @@ export default function Portofolio() {
 			{/* Portofolio */}
 			<div className="flex justify-center mb-20 flex-col items-center -md:px-4 px-24">
 				<h1 className="md:text-3xl text-4xl font-bold">My Recent Work</h1>
-				<p className="text-center">Here are a few design projects I've worked on recently. Want to see more? <Link to="/contact" className="cursor-pointer font-semibold text-main-color">Email me.</Link></p>
+				<p className="text-center">Here are a few design projects I've worked on recently. Want to see more? <a href="https://www.fiverr.com/ridhoidris" rel="noopener noreferrer" target="_BLANK" className="cursor-pointer font-semibold text-main-color">Contact Me</a></p>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-16 -lg:w-full">
 					<Porfolio/>
 				</div>
