@@ -123,7 +123,7 @@ export default function Index() {
                         <h1 className="text-white font-bold uppercase text-xl">Adress</h1>
                         <span className="text-gray-500 mt-2">Kebayoran Lama, Jakarta Selatan, Indonesia</span>
                         <span className="text-gray-500 mt-1">+1 (123) 465 798</span>
-                        <span className="text-gray-500 mt-1">ridhoidris@gmail.com</span>
+                        <span className="text-gray-500 mt-1">your@mail.com</span>
                     </div>
                     <div className="flex flex-col h-100p md:px-2">
                         <h1 className="text-white font-bold uppercase text-xl">useful link</h1>
